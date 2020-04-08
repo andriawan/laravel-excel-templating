@@ -38,7 +38,7 @@ Route::get('/load-from-template', function () {
         // Sheet1 is your sheet name
         $excel->sheet('Sheet1', function($sheet) {
 
-            for ($i=0; $i < 100000; $i++) { 
+            for ($i=0; $i < 100; $i++) { 
 
                 // copy style from templates
                 $sheet->duplicateStyle(
